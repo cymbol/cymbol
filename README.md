@@ -1,0 +1,4 @@
+cymbol
+======
+
+The main area
