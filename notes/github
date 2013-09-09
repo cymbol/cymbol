@@ -1,0 +1,13 @@
+added quzanti as collaborator
+
+used special clone address
+
+git clone https://github.com/cymbol/cymbol.git
+
+-- normal add, commit etc --
+
+git push origin master
+
+asked me for u/n p/w put in quzantis
+
+worked!
