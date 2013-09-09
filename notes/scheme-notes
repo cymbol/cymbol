@@ -1,0 +1,23 @@
+MIT Scheme
+
+where is the deb put it in worldlang
+
+If you are running 64 bit versions of Ubuntu download this Debian Package.
+To install "cd" to your download directory and run "sudo dpkg -i mit-scheme-x64_9.0.1-1_amd64.deb", this will probably fail. Regardless of the outcome of the previous command run "sudo apt-get install -f emacs".
+As the package works now it doesn't properly start with typing scheme. To fix this run "sudo ln -s -T /usr/local/bin/mit-scheme-x86-64 /usr/local/bin/mit-scheme". You should be able to use scheme just like at school.
+
+SCMUtils
+
+where is the tarball.. put it in worldlang
+
+nstallation instructions:
+
+Download the system (a TAR file, compressed with gzip) into a temporary directory of your choice. You can get an appropriate tarball from this directory. The file you want is something that looks like scmutils-20130901-x86-64-gnu-linux.tar.gz. The long number is the date it was made. The AMDx86-64 or x86-64 is for 64-bit pc architecture machines running GNU/Linux, and the ix86 is for 32-bit pc architecture machines running GNU/Linux. Your file is about 30 megabytes long. (There are also some MIT/GNU scheme system files that start mit-scheme. These are not needed for our class.)
+
+Be sure you are logged in with root privileges. If your system does not have a directory /usr/local, you will need to create one. Then execute the command lines:
+cd /usr/local 
+tar -xvzf [your-tarball.tar.gz]
+
+The command line to start the Scheme mechanics system is 
+/usr/local/bin/mechanics
+(If /usr/local/bin is on your search path you need not specify the whole path.)
